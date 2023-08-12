@@ -2,7 +2,7 @@
   "name": "find-value-of-key",
   "description": "The findValueOfTheKey function is a utility designed to delve into a deeply nested JavaScript object and locate the value associated with a specified target key. By recursively traversing the object's structure, the function efficiently uncovers the desired value, and if found, returns it. In cases where the target key is not present within the object, the function delivers a user-friendly message indicating that the key does not exist. This function is particularly useful when working with complex hierarchical data structures and searching for specific information buried within them.",
   "repository": "git@github.com:aleksandarLazic1998/findValueOfTheKey.git",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "types": "./lib/cjs/types/index.d.ts",
   "main": "./lib/cjs/index.js",
   "module": "./lib/mjs/index.js",
@@ -22,8 +22,13 @@
     "test": "npx jest"
   },
   "keywords": [
-    "url builder",
-    "query maker"
+    "value finder",
+    "object traversing",
+    "finding value in nested objects",
+    "javascript",
+    "typescript",
+    "esm",
+    "cjs"
   ],
   "author": "aleksandarLazic1998 <aleksandar.lazic.p@gmail.com>",
   "license": "MIT",
