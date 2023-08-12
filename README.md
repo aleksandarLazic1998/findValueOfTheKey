@@ -6,7 +6,10 @@ A utility function to recursively search through a deeply nested object and find
 
 ```bash
 npm install find-value-of-the-key
+```
 
+## Usage
+```bash
 const findValueOfTheKey = require('find-value-of-the-key');
 
 const nestedObject = {
